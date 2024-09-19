@@ -322,7 +322,10 @@ i {
     header::after {
         display: none;
     }
-    .hobbies {
+    .hobbies-main-content {
+        display: none;
+    }
+    header a {
         display: none;
     }
     .projects {
@@ -332,7 +335,7 @@ i {
         display: none;
         min-width: 20px;
         height: fit-content;
-        background: var(--black);
+        background: var(--white);
         position: absolute;
         top: 75px;
         right: -30px;
@@ -356,7 +359,7 @@ i {
         display: none;
     }
 
-    #maintwo {
+    .sub-content {
         padding: 5px 0 5px 0;
     }
 }
